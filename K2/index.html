@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    var img = document.createElement("img");
+
+    function myFunction() {
+        var x = document.getElementById("Auto").value;
+        img.src = "img/" + x + ".jpg";
+        document.body.appendChild(img);
+    }
+
+</script>
+
+
+<select name="Auto" id="Auto">
+    <option value="mercedes">mercedes</option>
+    <option value="audi">audi</option>
+    <option value="ford">ford</option>
+    <option value="opel">opel</option>
+    <option value="ferrari">ferrari</option>
+</select>
+<input type="Submit" onclick="myFunction()" name="Vezenden">
+</form>
+<div id="img"></div>
+
+</body>
+</html>
