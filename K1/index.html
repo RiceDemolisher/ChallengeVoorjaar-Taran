@@ -1,14 +1,21 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <script type="text/javascript" src="Js.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myText").value;
+            document.body.style.backgroundColor = x;
+
+        }
+
+    </script>
 
 
 </head>
 <body>
 <div id="div1">
-<input type="text" id="myText" value="red">
-<button id="knop" onclick="myFunction()">Click Me!</button>
+    <input type="text" id="myText" value="">
+    <button id="knop" onclick="myFunction()">Click Me!</button>
 </div>
 
 
