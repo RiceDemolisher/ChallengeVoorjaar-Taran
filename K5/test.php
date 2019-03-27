@@ -13,8 +13,6 @@ foreach ($inputfile as $line)
 {
     $data_lines[] = explode(";", $line);
 }
-
-//Get column headers.
 $first_line = array();
 foreach ($data_lines[0] as $dl)
 {
@@ -26,7 +24,6 @@ foreach ($first_line as $fl)
     $headers[] = $fl[0];
 }
 
-// Get row content.
 $data_cells = array();
 for ($i = 0; $i < count($data_lines); $i++)
 {
@@ -39,7 +36,7 @@ for ($i = 0; $i < count($data_lines); $i++)
     unset($data_cell);
 }
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML>
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
