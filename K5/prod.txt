@@ -1,2 +1,0 @@
-Januari=abc=kanker;Februari=null;Maart=null;=null
-Januari=abc;Februari=null;Maart=null;=null

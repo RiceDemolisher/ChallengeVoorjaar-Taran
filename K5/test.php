@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Taran
- * Date: 26-Mar-19
- * Time: 11:59 PM
- */
 
 $inputfile = file("prod.txt");
 
